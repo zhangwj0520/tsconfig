@@ -1,0 +1,26 @@
+{
+  "name": "@zhangwj0520/tsconfig",
+  "version": "0.0.2",
+  "author": {
+    "name": "zhangweijie",
+    "email": "zhangwj0520@hotmail.com",
+    "url": "https://github.com/zhangwj0520"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/zhangwj0520",
+  "repository": {
+    "url": "https://github.com/zhangwj0520/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangwj0520/tsconfig/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "src/tsconfig.base.json",
+    "src/nextjs.json",
+    "src/react-library.json",
+    "src/tsconfig.vue.json"
+  ]
+}
