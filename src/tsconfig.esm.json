@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.base.json",
+  "display": "ESM",
+  "compilerOptions": {
+    "module": "es2022"
+  }
+}

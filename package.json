@@ -19,8 +19,11 @@
   },
   "files": [
     "src/tsconfig.base.json",
-    "src/nextjs.json",
-    "src/react-library.json",
+    "src/tsconfig.esm.json",
+    "src/tsconfig.next.json",
+    "src/tsconfig.node.json",
+    "src/tsconfig.react.json",
+    "src/tsconfig.vite-react.json",
     "src/tsconfig.vue.json"
   ]
 }
