@@ -18,27 +18,18 @@
     "registry": "https://registry.npmjs.org/"
   },
   "files": [
-    "src/tsconfig.base.json",
-    "src/tsconfig.esm.json",
-    "src/tsconfig.next.json",
-    "src/tsconfig.node.json",
-    "src/tsconfig.react.json",
-    "src/tsconfig.vite-react.json",
-    "src/tsconfig.vue.json"
+    "tsconfig.base.json",
+    "tsconfig.esm.json",
+    "tsconfig.next.json",
+    "tsconfig.node.json",
+    "tsconfig.react.json",
+    "tsconfig.vite-react.json",
+    "tsconfig.vue.json"
   ],
-  "exports": {
-    "./base.json": "./src/tsconfig.base.json",
-    "./esm.json": "./src/tsconfig.esm.json",
-    "./next.json": "./src/tsconfig.next.json",
-    "./node.json": "./src/tsconfig.node.json",
-    "./react.json": "./src/tsconfig.react.json",
-    "./vite-react.json": "./src/tsconfig.vite-react.json",
-    "./vue.json": "./src/tsconfig.vue.json"
-  },
   "scripts": {
     "sync": "pnpx tsx ./scripts/sync.ts",
     "sync-cestc": "pnpm tsx ./scripts/sync-cestc.ts",
-    "release": "bumpp -r"
+    "pb": "bumpp -r&&npm publish --dry-run&&pnpm sync"
   },
   "devDependencies": {
     "bumpp": "^9.0.0",
