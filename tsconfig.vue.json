@@ -4,9 +4,11 @@
     "declaration": false /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
     "declarationMap": false /* Create sourcemaps for d.ts files. */,
     "esModuleInterop": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "Node",
     "allowJs": true,
     "noEmit": true,
+    "jsx": "preserve",
+    "target": "ESNext",
     "lib": [
       // Should target at least ES2016 in Vue 3
       // Support for newer versions of language built-ins are
