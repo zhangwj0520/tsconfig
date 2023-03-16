@@ -29,7 +29,7 @@
   "scripts": {
     "sync": "pnpx tsx ./scripts/sync.ts",
     "sync-cestc": "pnpm tsx ./scripts/sync-cestc.ts",
-    "pb": "bumpp -r&&npm publish --dry-run&&pnpm sync"
+    "pb": "bumpp -r&&npm publish&&pnpm sync"
   },
   "devDependencies": {
     "bumpp": "^9.0.0",
